@@ -1,0 +1,57 @@
+body {
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    color: #000000;
+    background-color: #FBFBFD;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.space {
+    width: 10px;
+}
+.heading span {
+    font-weight: 700;
+    font-size: 50px;
+    display: inline-block;
+    animation: heading 1.5s ease-in-out;
+    animation-delay: calc(var(--i) * -0.5s);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes heading {
+    from {
+      transform: translate(2%, -2%) rotate(-1deg)
+    }
+    to {
+      transform: translate(-2%, 5%) rotate(3deg)
+    }
+}
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    padding: 30px;
+}
+a {
+    text-decoration: none;
+    opacity: 1;
+    transition: 0.2s;
+    color: #000000;
+}
+a:hover {
+    opacity: 0.5;
+}
+a:visited {
+    color: #000000;
+}
