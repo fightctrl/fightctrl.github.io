@@ -1,0 +1,35 @@
+withjoy:
+  name: with joy
+  blurb: providing a sustainable alternative for dental care&#160;products
+  image: withjoyphysical.jpg
+  alt: A yellow toothpaste box, a blue mouthwash box and a green floss fox placed on top a bathroom cabinet
+
+waterways:
+  name: waste and waterways campaign
+  blurb: developing a communication strategy to improve waste&#160;practices
+  image: waterwaysbus.jpg
+  alt: A bus stop with a blue poster with a cartoon turtle and text saying 'Make our oceans glitter, Pick up litter'
+
+spectra:
+  name: 'spectra:<br>murdoch open showcase 2021'
+  blurb: organising an event to uplift students and expand people's perception of creative&#160;media
+  image: spectrafeature.jpg
+  alt: A wide shot of a public event with colourful lights and posters up
+
+fac:
+  name: 'fremantle arts centre:<br>concert series'
+  blurb: engaging concert-goers to support the local music&#160;scene
+  image: facmockup.jpg
+  alt: A neat desk setup with a screengrab of a website on a wide screen computer
+
+cookbook:
+  name: have you eaten yet?
+  blurb: preserving family traditions and cultural&#160;connection
+  image: cookbookfeature.jpg
+  alt: An open cookbook showing a recipe for tau yu bak (braised pork belly)
+
+autismlab:
+  name: cognition in autism lab
+  blurb: providing an accessible and trustworthy platform for the asd&#160;community
+  image: asdmockup.jpg
+  alt: A screengrab of a website with the heading 'Improving learning and life outcomes for people with and without Autism' on a laptop

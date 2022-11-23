@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="{{ site.description }}">
+        <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+        {% if page.url == "/"%}
+            <title>{{ site.title }}</title>
+        {% elsif page.url == "/404.html" %}
+            <title>Page not found | {{ site.title }}</title>
+        {% else %}
+            <title>{{ page.title }} | {{ site.title }}</title>
+        {% endif %}
+    </head>
+    <body data-barba="wrapper">
+        <main data-barba="container">
+            <nav class="container-fluid">
+                <div class="mc-nav-left">
+                    <a class="mc-name" href="/">MELANIE CHOW</a>
+                </div>
+                <div class="mc-nav-right">
+                    <ul class="mc-nav">
+                        <li class="mc-nav-item">
+                            <a class="mc-nav-link" href="/">PROJECTS</a>
+                        </li>
+                        <li class="mc-nav-item">
+                            <a class="mc-nav-link" href="/learn">LEARN</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            {{ content }}
+            {% if page.url != "/" and page.url != "/learn/" and page.url != "/404.html" %}
+                <div class="container-fluid">
+                    <div class="mc-backtotop">
+                        <hr>
+                        <button onclick="mcTop()" id="mc-top">BACK TO TOP</button>
+                        <hr>
+                    </div>
+                </div>
+            {% endif %} 
+            <footer class="container-fluid">
+                <div class="mc-additional-info">
+                    <ul class="mc-socials">
+                        <li class="mc-social-item">
+                            <a class="mc-social-link" href="mailto:m31chow@outlook.com" target="_blank"><span class="material-symbols-outlined">arrow_outward</span>EMAIL</a>
+                        </li>
+                        <li class="mc-social-item">
+                            <a class="mc-social-link" href="https://www.instagram.com/heymelaniechow/" target="_blank"><span class="material-symbols-outlined">arrow_outward</span>INSTAGRAM</a>
+                        </li>
+                        <li class="mc-social-item">
+                            <a class="mc-social-link" href="https://www.linkedin.com/in/melanie-chow-013a34191/" target="_blank"><span class="material-symbols-outlined">arrow_outward</span>LINKEDIN</a>
+                        </li>
+                    </ul>
+                    <div class="mc-show-colophon">
+                        <p>Designed and coded by me using <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></p>
+                        <p>Transitions made with <a href="https://greensock.com/gsap/" target="_blank">GSAP</a> and <a href="https://barba.js.org/" target="_blank">Barba.js</a></p>
+                        <p>Typeface used is <a href="https://fonts.google.com/specimen/Inter" target="_blank">Inter</a></p>
+                        <p>Icon library used is <a href="https://fonts.google.com/icons?icon.set=Material+Symbols" target="_blank">Material Symbols</a></p>
+                    </div>
+                </div>
+                <div class="mc-credits">
+                    <div class="mc-copyright">
+                        <p>© MELANIE CHOW {{ "now" | date: "%Y" }}</p>
+                    </div>
+                    <div class="mc-colophon">
+                        <p>CODED BY ME</p>
+                    </div>
+                </div>
+            </footer>
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+        <script src="/assets/js/script.js"></script>
+    </body>
+</html>
