@@ -1,3 +1,19 @@
+$('#mcNavToggler').click(function() {
+    $('.mc-nav-right').toggleClass('mc-nav-right-on');
+    $('#mcNavToggler').toggleClass('open');
+    if($('.mc-nav-right').hasClass('mc-nav-right-on')) {
+        $('html, body').css({
+            overflow: 'hidden',
+            height: '100%'
+        });
+    } else {
+        $('html, body').css({
+            overflow: 'auto',
+            height: 'auto'
+        });
+    }
+});
+
 $(window).resize(function() {
     if($(window).width() > 420) {
         $('.mc-widow').html("&nbsp;");
