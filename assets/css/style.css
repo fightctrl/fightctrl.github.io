@@ -3,6 +3,10 @@ body {
     color: #000000;
     background-color: #F7F7FB;
 }
+.mc-no-scroll {
+    overflow: hidden;
+    height: 100%;
+}
 ::selection {
     background: #D3D3D5;
     color: #FFFFFF;
@@ -422,6 +426,7 @@ a.mc-site-link:hover {
     justify-content: space-between;
 }
 #mc-top {
+    color: #000000;
     border: none;
     background: transparent;
     font-size: 14px;
