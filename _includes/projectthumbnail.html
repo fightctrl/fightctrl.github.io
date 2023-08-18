@@ -1,9 +1,9 @@
-<div class="col-md-6 mc-projects-container">
-    <a class="mc-project-link" href="/{{ include.link }}">
-        <div class="mc-feature-container-sm">
-            <img src="/assets/images/{{ include.img }} " alt="{{ include.alt }}">
+<div class="col-md-6 projects-container">
+    <a class="project-link" href="/{{ include.link }}">
+        <div class="feature-container">
+            <img src="/assets/images/{{ include.img }}" alt="{{ include.alt }}">
         </div>
-        <h3 class="mc-subheading">{{ include.description | upcase }}</h3>
-        <p class="mc-project-name-sm">{{ include.project }}</p>
+        <h2 class="subheading">{{ include.description | upcase }}</h2>
+        <p class="project-name">{{ include.project }}</p>
     </a>
 </div>

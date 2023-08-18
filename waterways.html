@@ -1,77 +1,91 @@
 ---
 layout: default
 title: Waste and Waterways Campaign
-project: waterways
 permalink: /waterways-campaign/
 ---
 
-{% include feature.html %}
-<section class="container-fluid">
-    <div class="mc-container">
-        <div class="mc-grid">
-            <div class="mc-project-overview">
-                <h3 class="mc-subheading">THE PROJECT</h3>
-                <p>The Australian Academy of Science is a not-for-profit organisation that aims to inform, build trust and promote engagement on scientific matters within the&nbsp;community.</p>
-                <p>This waste and waterways campaign is a hypothetical campaign aiming to instill the belief that anyone can make a difference to the amount of waste along Australia's&nbsp;waterways.</p>
-            </div>
-            <div class="mc-project-quote">
-                <p class="mc-pullquote">The belief that anyone can make a difference to our<span class="mc-widow">&nbsp;</span>waterways...</p>
-            </div>
-            <div class="mc-project-outline1">
-                <h3 class="mc-subheading">INSTILLING GOOD WASTE PRACTICES EARLY</h3>
-                <p>Australia generates more waste and recycles less than other developed countries. Factors like lack of incentive and social embarrassment among adults has contributed to tonnes of plastic and other waste entering our&nbsp;waterways.</p>
-                <p>Rather than target adults, I chose to create an anti-littering campaign to effectively engage young children (aged 3–10) in adopting good waste practices due to their eagerness to be&nbsp;proactive.</p>
-            </div>
+<section class="container-fluid project-info">
+    <div class="row">
+        <div class="col-md-9">
+            <h1 data-splitting>{{ page.title | upcase }}</h1>
         </div>
-        <div class="row mc-section">
-            <div class="col-md-4 mc-order-2">
-                <h3 class="mc-subheading">NARROWING THE FOCUS</h3>
-                <p>I looked into peer-reviewed research studies into current waste practices. From that, I found that adults were reluctant to change their behaviour due to lack of incentive or social embarrassment despite having an awareness of the impact of waste pollution has on waterways. This meant that the challenge of this campaign was bridging the gap between people's attitudes and&nbsp;behaviours.</p>
-                <p>This led me to shift the focus onto young children as they were found to be more likely to adopt and retain good waste practices after being taught preventative measures. Targeting children also has the added potential of impacting their family and friends as children who engage in repeated actions are capable of influencing others to adopt those same&nbsp;actions.</p>
-                <p>Having defined the audience, litter prevention was chosen as the focus because it has been found to lead to higher waste reduction. Children also have a high perception of litter being the cause of waste in waterways. By focusing on something that children already know, the message is able to target primarily on behaviours, rather than&nbsp;attitudes.</p>
-            </div>
-            <div class="col-md-7 offset-md-1 mc-order-1">
-                <img class="img-fluid mc-md-padding-bottom" src="/assets/images/waterwaysresearch.jpg" alt="Six slides containing research and recommendations">
-            </div>
-        </div>
-        <p class="mc-pullquote mc-quote">Bridging the gap between people's attitudes and<span class="mc-widow">&nbsp;</span>behaviours...</p>
-        <div class="row mc-section">
-            <div class="col-md-7">
-                <video class="img-fluid mc-md-padding-bottom" autoplay loop muted playsinline controls>
-                    <source src="/assets/images/waterwaystimelapse.mp4" type="video/mp4">
-                    <p class="sr-only">Development of the campaign poster from sketch to final design</p>
-                </video>
-            </div>
-            <div class="col-md-4 offset-md-1">
-                <h3 class="mc-subheading">DECIDING PERSUASIVE TACTICS</h3>
-                <p>Having analysed previous waste management campaigns, I found that they often use the threat of shame and embarrassment in their messaging or shocking imagery of wildlife to urge people to litter less or use less&nbsp;plastics.</p>
-                <p>Most of these tactics would not be effective on children, so I decided to not over complicate the design and the message of the campaign and keep it&nbsp;simple.</p>
-                <p>I chose to implement wildlife imagery, a turtle, as it would be an element engaging to children. Positive messaging was also used as it would reinforce and validate good behaviour. I also ame sure to make the slogan rhyme to make this campaign memorable to&nbsp;children.</p>
-            </div>
-        </div>
-        <div class="mc-grid mc-padding-top">
-            <div class="mc-grid-1-6-3x7">
-                <img class="mc-img mc-modal-trigger" src="/assets/images/waterwaysbench.jpg" alt="Bench poster containing a cartoon turtle and text saying 'Make our oceans glitter, Pick up litter'" data-toggle="modal" data-target="#waterways1">
-            </div>
-            <div class="mc-grid-3-1-3x4">
-                <img class="mc-img mc-modal-trigger" src="/assets/images/waterwaysposter.jpg" alt="A poster with fold creases that contains a cartoon turtle and text saying 'Make our oceans glitter, Pick up litter'" data-toggle="modal" data-target="#waterways2">
-            </div>
-        </div>
-        <div class="row mc-section">
-            <div class="col-md-6 mc-md-padding-bottom">
-                <h3 class="mc-subheading">ROLLING OUT THE CAMPAIGN</h3>
-                <ul class="mc-list">
-                    <li>Strategically place the posters and prints in locations that are commonly frequented by children and are prone to&nbsp;litter.</li>
-                    <li>Implementing the campaign into these locations’ wayfinding systems to direct children to the nearest&nbsp;bin.</li>
-                    <li>Integrating the campaign into educational programs in&nbsp;schools.</li>
-                </ul>   
-            </div>
-            <div class="col-md-5 offset-md-1">
-                <h3 class="mc-subheading">EVALUATING THE PROJECT</h3>
-                <p>This project could be further expanded into an interconnected series of posters and related outputs focusing on other waste management strategies. There is also the opportunity in assisting government and corporations with restructuring current waste management systems to align with the project’s goal of reducing waste in&nbsp;waterways.</p>
-            </div>
+    </div>
+    <div class="row">
+        <div class="col-md-9">
+            <p>The Australian Academy of Science is a not-for-profit organisation that aims to inform, build trust and promote engagement on scientific matters within the&nbsp;community.</p>
+            <p>This waste and waterways campaign is a hypothetical campaign aiming to instill the belief that anyone can make a difference to the amount of waste along Australia's waterways. This is done by focusing the campaign on anti-littering and targeting young children &#40;aged 3–10&#41; due to their eagerness in being proactive with good waste&nbsp;practices.</p>
         </div>
     </div>
 </section>
-{% include lightbox.html modal="waterways1" img="waterwaysbench.jpg" %}
-{% include lightbox.html modal="waterways2" img="waterwaysposter.jpg" %}
+<section class="container-fluid project-content">
+    <div id="waste-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/assets/images/wasteslide1.png" alt="Cartoon turtle">
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/images/wasteslide2.png" alt="Make our oceans glitter, pick up litter">
+            </div>
+        </div>
+        <ol class="carousel-indicators">
+            <li data-target="#waste-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#waste-carousel" data-slide-to="1"></li>
+        </ol>
+    </div>
+    <div class="row add-padding-top add-padding-bottom">
+        <div class="col-md-4">
+            <h2 class="subheading">NARROWING THE FOCUS</h2>
+        </div>
+        <div class="col-md-8">
+            <p>Australia generates more waste and recycles less than other developed countries. Looking into peer-reviewed research studies into current waste practices, factors like lack of incentive and social embarrassment among adults were some of the reasons that tonnes of plastic and waste have entered our waterways. This is despite the fact that adults are aware of the impact waste pollution has on waterways. This meant that the challenge of this campaign was bridging the gap between people's attitudes and&nbsp;behaviours.</p>
+            <p>This led to a shift in focus onto young children as they were found to be more likely to adopt and retain good waste practices are being taught them. Targeting children also has the added potential of impacting their family and friends as children who engage in repeated actions are capable of influencing others to adopt those same&nbsp;actions.</p>
+            <p>Having defined the audience, litter prevention was chosen as the focus because it has been found to lead to higher waste reduction. Children also have a high perception of litter being the cause of waste in waterways. By focusing on something that children already know, the message is able to target primarily on behaviours, rather than&nbsp;attitudes.</p>
+        </div>
+    </div>
+    <div class="row add-padding-bottom">
+        <div class="col-md-6">
+            <img class="full-img" src="/assets/images/wasteresearch2.png" atl="Infographic of cultural perceptions of waste practices">
+        </div>
+        <div class="col-md-6">
+            <img class="full-img" src="/assets/images/wasteresearch1.png" alt="Infographic of children's perceived causes of waste in waterways">
+        </div>
+    </div>
+    <div class="row add-padding-bottom">
+        <div class="col-md-3">
+            <img class="full-img" src="/assets/images/wastev1.png" alt="Sketch of anti-littering poster">
+        </div>
+        <div class="col-md-3">
+            <img class="full-img" src="/assets/images/wastev2.jpg" alt="Version 1 of anti-littering poster">
+        </div>
+        <div class="col-md-3">
+            <img class="full-img" src="/assets/images/wastev3.jpg" alt="Version 2 of anti-littering poster">
+        </div>
+        <div class="col-md-3">
+            <img class="full-img" src="/assets/images/wastev4.jpg" alt="Version 3 of anti-littering poster">
+        </div>
+    </div>
+    <div class="row add-padding-top add-padding-bottom">
+        <div class="col-md-4">
+            <h2 class="subheading">EFFECTIVE MESSAGING</h2>
+        </div>
+        <div class="col-md-8">
+            <p>Since the target audience of this campaign is young children, the overall design and message of the campaign was kept simple. The slogan, "Make our oceans glitter, pick up litter", uses rhyme to make the message more memorable. It also uses positive messaging to help reinforce and validate good behaviour which is picking up litter. The inclusion of the turtle acts as a focal point to grab the audience's&nbsp;attention.</p>
+        </div>
+    </div>
+    <div class="row no-gutters add-padding-bottom">
+        <div class="col-md-8">
+            <img class="unaligned add-padding-bottom" src="/assets/images/wastemockup1.jpg" alt="Mockup of campaign on bench">
+        </div>
+        <div class="col-md-4">
+            <img class="full-img add-padding-bottom" src="/assets/images/wastemockup2.jpg" alt="Mockup of campaign poster">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="subheading">ROLLING OUT THE CAMPAIGN</h2>
+        </div>
+        <div class="col-md-8">
+            <p>For this campaign to be effective, the posters and prints need to be strategically placed in locations that are commonly frequented by children and are prone to litter since the poster is more of a call to action than an informatianal campaign. Implementing this campaign into these locations' wayfinding systems to direct children to the nearest bin further educates children on what to do with the litter after picking it up. To further reinforce the message, the campaign should be integrated into educational packages in schools to allow children to learn about the issue in more&nbsp;depth.</p>
+        </div>
+    </div>
+</section>

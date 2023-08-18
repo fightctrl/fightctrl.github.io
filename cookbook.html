@@ -1,125 +1,90 @@
 ---
 layout: default
-title: Have You Eaten Yet?
-project: cookbook
+title: 'Have You Eaten Yet?'
 permalink: /family-cookbook/
 ---
 
-{% include feature.html %}
-<section class="container-fluid">
-    <div class="mc-container">
-        <div class="mc-grid">
-            <div class="mc-project-overview">
-                <h3 class="mc-subheading">THE PROJECT</h3>
-                <p>Have You Eaten Yet? is a personal cookbook of recipes from my family. It contains recipes of traditional dishes my parents grew up eating in Malaysia and simple home-cooked meals we’ve eaten together as a&nbsp;family.</p>
+<section class="container-fluid project-info">
+    <div class="row">
+        <div class="col-md-9">
+            <h1 data-splitting>{{ page.title | upcase }}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-9">
+            <p><em>Have You Eaten Yet?</em> is a personal cookbook of family recipes. As someone whose to connection to culture and heritage isn't that strong, food has been the only thing that's stuck with me. This cookbook is my way of recording my family's recipes to prevent it from being lost and strengthen my cultural ties. It contains recipes of traditional dishes my parents grew up eating in Malaysia and simple home-cooked meals we've eaten together as a&nbsp;family.</p>
+        </div>
+    </div>
+</section>
+<section class="container-fluid project-content">
+    <div id="cookbook-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/assets/images/cookbookdesignsystem1.gif" alt="Slide 1: Book patterns">
             </div>
-            <div class="mc-project-quote">
-                <p class="mc-pullquote">My way of recording my family's recipes to prevent further<span class="mc-widow">&nbsp;</span>loss...</p>
+            <div class="carousel-item">
+                <img src="/assets/images/cookbookdesignsystem2.png" alt="Slide 2: Book colours">
             </div>
-            <div class="mc-project-outline1">
-                <h3 class="mc-subheading">RE-ESTABLISHING CULTURAL TIES</h3>
-                <p>Family recipes are usually passed down through practice and oral tradition but language and geographical barriers make it difficult to preserve familial traditions for diasporic groups. My parents have already lost some recipes from their parents as it was never written down or&nbsp;recorded.</p>
-                <p>As someone whose connection to culture and heritage is hanging on by a thread, food has been the only thing that’s stuck with me. This cookbook is my way of recording my family’s recipes to prevent further loss. This cookbook also aims to provide insight into Malaysian food for diaspora and non-Malaysians by including original photography and short personal&nbsp;anecdotes.</p>
+            <div class="carousel-item">
+                <img src="/assets/images/cookbookdesignsystem3.png" alt="Slide 3: 'Have you eaten yet?' in different typefaces">
             </div>
         </div>
-        <div class="row mc-section">
-            <div class="col-md-4 mc-order-2">
-                <h3 class="mc-subheading">DISCOVERING COOKBOOK TRENDS</h3>
-                <p>I looked into recent cookbooks and their reviews to find out what people find appealing about them from a design and information&nbsp;perspective.</p>
-                <p>I discovered that cookbooks that take a more personal approach tend to stand out more. But I found that audiences are split on their opinion of personal anecdotes as some of them want cookbooks to be purely&nbsp;practical.</p>
-                <p>From all this analysis, I decided that recipes should be the main focus and to make the design approachable because cookbooks are mainly used by audiences for its function. But small personal snippets, interesting layouts and appealing photography will also be included as they make the cookbook distinct from others and feel&nbsp;lived-in.</p>
-            </div>
-            <div class="col-md-7 offset-md-1 mc-order-1">
-                <img class="img-fluid mc-md-padding-bottom" src="/assets/images/cookbookreviews.png" alt="Short reviews of cookbooks with their star ratings">
-            </div>
+        <ol class="carousel-indicators">
+            <li data-target="#cookbook-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#cookbook-carousel" data-slide-to="1"></li>
+            <li data-target="#cookbook-carousel" data-slide-to="2"></li>
+        </ol>
+    </div>
+    <div class="row add-padding-top add-padding-bottom">
+        <div class="col-md-4">
+            <h2 class="subheading">EMBEDDING CULTURAL IDENTITY</h2>
         </div>
-        <div class="row mc-section">
-            <div class="col-md-7">
-                <img class="img-fluid mc-md-padding-bottom" src="/assets/images/cookbookaudienceresearch.png" alt="Slides of audience research">
-            </div>
-            <div class="col-md-4 offset-md-1">
-                <h3 class="mc-subheading">NOT JUST DESIGNING FOR MYSELF</h3>
-                <p>Even though this is primarily a personal project, design should be used to be inclusive and accommodating to others. So I created personas and empathy maps of diasporic and non-diasporic audiences to help me in the direction the cookbook should take in terms of construction and&nbsp;design.</p>
-            </div>
+        <div class="col-md-8">
+            <p>There needed to be a visual link to Malaysian culture in the cookbook as it contains both traditional and non-traditional dishes. Taking inspiration from my family's hometown, George Town, Penang, vibrant colours and tile patterns are used to further cement the cookbook's cultural&nbsp;identity.</p>
+            <p>The use of different typefaces serve the purpose of ensuring that the recipes are easy to read and making the anecdotes look&nbsp;personal.</p>
         </div>
-        <p class="mc-pullquote mc-quote">Design should be used to be inclusive and accommodating to<span class="mc-widow">&nbsp;</span>others...</p>
-        <div class="row mc-section">
-            <div class="col-md-4 mc-order-2">
-                <h3 class="mc-subheading">EMBEDDING CULTURAL IDENTITY</h3>
-                <p>I wanted a way of creating a subtle visual link to my family’s culture because I knew I also wanted to include recipes of non-traditional dishes as well (even though the way my family makes it would still be informed by our&nbsp;culture).</p>
-                <p>The best way of communicating the cookbook’s cultural association was using design commonly found in my family’s hometown, George Town in Penang. And one of the most distinct pieces of design in that area are its tile&nbsp;patterns.</p>
-            </div>
-            <div class="col-md-7 offset-md-1 mc-order-1">
-                <img class="img-fluid mc-padding-bottom" src="/assets/images/cookbookpatternsketch.png" alt="Sketch of tile pattern designs">
-                <img class="img-fluid mc-md-padding-bottom" src="/assets/images/cookbookpattern.png" alt="Eight tile pattern designs">
-            </div>
+    </div>
+    <img class="full-img add-padding-bottom" src="/assets/images/cookbooksketch.jpg" alt="Pattern sketches">
+    <video class="img-fluid add-padding-bottom" autoplay loop muted playsinline controls>
+        <source src="/assets/images/cookbookgrid.mp4" type="video/mp4">
+        <p class="sr-only">Modular grid layouts</p>
+    </video>
+    <div class="row no-gutters add-padding-bottom">
+        <div class="col-12">
+            <img class="full-img" src="/assets/images/cookbookcover.png" alt="Front and back cover">
         </div>
-        <div class="mc-grid mc-padding-top">
-            <div class="mc-grid-1-1-5x3">
-                <figure class="mc-cookbook-modal-wrapper">
-                    <img class="mc-img mc-modal-trigger" src="/assets/images/cookbooklayout1.png" alt="Three sets of spreads from the cookbook" data-toggle="modal" data-target="#cookbook1">
-                    <figcaption>Initial test<span class="mc-widow">&nbsp;</span>layouts</figcaption>
-                </figure>
-            </div>
-            <div class="mc-grid-1-4-5x3">
-                <figure class="mc-cookbook-modal-wrapper">
-                    <img class="mc-img mc-modal-trigger" src="/assets/images/cookbooklayout2.png" alt="Three sets of spreads from the cookbook" data-toggle="modal" data-target="#cookbook2">
-                    <figcaption>Finalising fonts and experimenting with different<span class="mc-widow">&nbsp;</span>compositions</figcaption>
-                </figure>
-            </div>
-            <div class="mc-grid-1-7-5x3">
-                <figure class="mc-cookbook-modal-wrapper">
-                    <img class="mc-img mc-modal-trigger" src="/assets/images/cookbooklayout3.png" alt="Three sets of spreads from the cookbook" data-toggle="modal" data-target="#cookbook3">
-                    <figcaption>Further experimentation with white<span class="mc-widow">&nbsp;</span>space</figcaption>
-                </figure>
-            </div>
-            <div class="mc-grid-1-10-5x3">
-                <figure class="mc-cookbook-modal-wrapper">
-                    <img class="mc-img mc-modal-trigger" src="/assets/images/cookbooklayout4.png" alt="Three sets of spreads from the cookbook" data-toggle="modal" data-target="#cookbook4">
-                    <figcaption>Adjusted page size and finalised<span class="mc-widow">&nbsp;</span>compositions</figcaption>
-                </figure>
-            </div>
-        </div>
-        <div class="row mc-section mc-negative-top">
-            <div class="col-md-6 offset-md-3 mc-padding-top">
-                <h3 class="mc-subheading">REVISING, REVISING, REVISING</h3>
-                <p>Trying to create dynamic looking layouts for each recipe whilst still ensuring the contents flowed was&nbsp;challenging.</p>
-                <p>From my initial plain and repetitive layouts, I managed to create purposeful and appealing layouts by letting images bleed off the page and filling unnecessary white space with the pattern&nbsp;designs.</p>
-            </div>
-        </div>
-        <div class="mc-grid mc-padding-top">
-            <div class="mc-grid-1-7-3x6">
-                <img class="mc-img mc-modal-trigger" src="/assets/images/cookbookmockup.jpg" alt="Mockups of cookbook opened to show different spreads" data-toggle="modal" data-target="#cookbook5">
-            </div>
-            <div class="mc-grid-3-1-3x5">
-                <img class="mc-img mc-modal-trigger" src="/assets/images/cookbookcover.jpg" alt="A book with the title 'Have You Eaten Yet?' on top of a flowery tablecloth" data-toggle="modal" data-target="#cookbook6">
-            </div>
-        </div>
-        <div class="mc-section">
-            <div class="row">
-                <div class="col-md-8 mc-md-padding-bottom">
-                    <h3 class="mc-subheading">EVALUATING THE PROJECT</h3>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>Creating this cookbook was quite the family activity with how involved everyone was. I didn’t realise just how important food was to us until I started working on this&nbsp;project.</p>
-                            <p>Even though I barely cook, this cookbook is something I’ll keep using when I’m in need of something familiar. There is also the possibility of adding more recipes as this cookbook is not a comprehensive&nbsp;collection.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <p>Several people have also expressed interest in owning this cookbook for themselves. This may present an opportunity for me to improve upon the design and photography and reprint the book as a hardcover as I&nbsp;intended.</p>
-                        </div>
+        <div class="col-12">
+            <div id="cookbook-mockup" class="carousel" data-ride="carousel" data-interval="1000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/assets/images/cookbookmockup1.png" alt="Mockup of cookbook spreads">
                     </div>
-                </div>
-                <div class="col-md-3 offset-md-1">
-                    <h3 class="mc-subheading">AS SEEN IN</h3>
-                    <a class="mc-site-link" href="https://creativemediashowcase.murdoch.edu.au/graphic-design/" target="_blank"><span class="material-symbols-outlined">arrow_outward</span>The Buzz 2022</a>
+                    <div class="carousel-item">
+                        <img src="/assets/images/cookbookmockup2.png" alt="Mockup of cookbook spreads">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/images/cookbookmockup3.png" alt="Mockup of cookbook spreads">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/images/cookbookmockup4.png" alt="Mockup of cookbook spreads">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/images/cookbookmockup5.png" alt="Mockup of cookbook spreads">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/images/cookbookmockup6.png" alt="Mockup of cookbook spreads">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="subheading">MORE THAN JUST A COOKBOOK</h2>
+        </div>
+        <div class="col-md-8">
+            <p>Creating this cookbook was quite the family activity with how involved everyone was. I didn’t realise just how important food was to us until I started working on this&nbsp;project.</p>
+            <p>Even though I barely cook, this cookbook is something I’ll keep using when I’m in need of something familiar. There is also the possibility of adding more recipes as this cookbook is not a comprehensive&nbsp;collection.</p>
+        </div>
+    </div>
 </section>
-{% include lightbox.html modal="cookbook1" img="cookbooklayout1.png" %}
-{% include lightbox.html modal="cookbook2" img="cookbooklayout2.png" %}
-{% include lightbox.html modal="cookbook3" img="cookbooklayout3.png" %}
-{% include lightbox.html modal="cookbook4" img="cookbooklayout4.png" %}
-{% include lightbox.html modal="cookbook5" img="cookbookmockup.jpg" %}
-{% include lightbox.html modal="cookbook6" img="cookbookcover.jpg" %}
