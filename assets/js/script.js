@@ -49,13 +49,13 @@ function leaveTransition() {
         .to('.swipe-transition', {
             scaleY: 1,
             transformOrigin: 'top',
-            duration: 1
+            duration: 0.7
         })
         .to('.swipe-transition', {
             scaleY: 0,
             transformOrigin: 'bottom',
-            duration: 0.7,
-            delay: -0.3
+            duration: 0.6,
+            delay: -0.1
         })
 }
 
